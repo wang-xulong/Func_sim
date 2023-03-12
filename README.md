@@ -1,6 +1,6 @@
 # Revisiting Catastrophic Forgetting in Continual Learning via Functional Similarity
 
-under review
+This work is under review.
 
 
 ## Requirements 
