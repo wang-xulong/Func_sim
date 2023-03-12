@@ -1,5 +1,7 @@
 # Revisiting Catastrophic Forgetting in Continual Learning via Functional Similarity
 
+under review
+
 
 ## Requirements 
 This project uses the preset environment in Google Colab.
