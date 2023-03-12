@@ -19,7 +19,7 @@ Please open the example file (.ipynb) in colab and copy the preparation files([f
 Note: Please do not open the example file derictly in your own _Google Drive_. As the data exchange between _Colab_ virtual host and your own _Google Drive_, it will make the data generation module run extremely slow .
 
 ## Getting simple
-We conducted experiments on two datasets, SplitMNIST and SplitCIFAR10, respectively. 
+We conduct experiments on two datasets, SplitMNIST and SplitCIFAR10, respectively. 
 
 SplitMNIST experiment: 
 <a target="_blank" href="https://colab.research.google.com/github/wang-xulong/Func_sim/blob/main/MNIST_sim_acc_fgt.ipynb">
@@ -34,4 +34,4 @@ SplitCIFAR10 experiment:
 
 
 ## Acknowledgment
-Our datasets is based on [the continual learning community project: avalanche](https://avalanche.continualai.org/)
+Our datasets are based on [the continual learning community project: avalanche](https://avalanche.continualai.org/)
