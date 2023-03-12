@@ -16,7 +16,7 @@ This project uses the preset environment in Google Colab.
 ## Usage
 Please open the example file (.ipynb) in colab and copy the preparation files([func_simMNIST](func_simMNIST) or [func_simCIFAR10](func_simCIFAR10)) into `/home`(in your _Colab_ virtual host) as required by the notes in the example file.
 
-Note: Please do not open the example file derictly in your own _Google Drive_. As the data exchange between _Colab_ virtual host and your own _Google Drive_, it will make the data generation module extremely slow .
+Note: Please do not open the example file derictly in your own _Google Drive_. As the data exchange between _Colab_ virtual host and your own _Google Drive_, it will make the data generation module run extremely slow .
 
 ## Getting simple
 We conducted experiments on two datasets, SplitMNIST and SplitCIFAR10, respectively. 
