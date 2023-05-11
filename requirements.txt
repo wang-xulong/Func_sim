@@ -1,7 +1,6 @@
 avalanche_lib==0.3.1
 numpy==1.21.5
 Pillow==9.4.0
-Pillow==9.5.0
 scipy==1.7.3
 torch==1.13.1
 torchvision==0.14.1
