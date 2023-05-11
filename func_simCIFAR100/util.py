@@ -195,8 +195,8 @@ def get_Cifar10(train_bs=128,test_bs=128):
     return train_stream,test_stream
 
 def get_Cifar100(train_bs=128,test_bs=128):
-    train_dir = os.path.join("Data", "SplitCifar100_2class", "train")
-    test_dir = os.path.join("Data", "SplitCifar100_2class", "test")
+    train_dir = os.path.join("../", "Data", "SplitCifar100_2class", "train")
+    test_dir = os.path.join("../", "Data", "SplitCifar100_2class", "test")
     train_stream = []
     test_stream = []
     # MNIST 数据集处理

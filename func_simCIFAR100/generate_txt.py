@@ -4,8 +4,8 @@ import os
 # test_dir = os.path.join("Data",  "SplitMNIST", "test")
 # train_dir = os.path.join( "Data",  "SplitCifar10","train")
 # test_dir = os.path.join("Data",  "SplitCifar10", "test")
-train_dir = os.path.join( "Data",  "SplitCifar100_2class","train")
-test_dir = os.path.join("Data",  "SplitCifar100_2class", "test")
+train_dir = os.path.join( "../", "Data",  "SplitCifar100_2class", "train")
+test_dir = os.path.join("../", "Data",  "SplitCifar100_2class", "test")
 #
 # label_map = {# For SplitMNIST and SplitCifar10
 #     '0':'0','1':'1',

@@ -1,45 +1,39 @@
+/Users/xulongwang/anaconda3/envs/func_sim/lib/python3.7/site-packages/numpy/core/_methods.py:263: RuntimeWarning: Degrees of freedom <= 0 for slice
+  keepdims=keepdims, where=where)
+/Users/xulongwang/anaconda3/envs/func_sim/lib/python3.7/site-packages/numpy/core/_methods.py:254: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
 run time: 1
-[0/2]  train_loss: 0.77356 valid_loss: 0.70388 train_acc: 0.49564 valid_acc: 0.49696
-Validation loss decreased (inf --> 0.703880).  Saving model ...
-[1/2]  train_loss: 0.75948 valid_loss: 0.70427 train_acc: 0.50586 valid_acc: 0.48589
-EarlyStopping counter: 1 out of 20
-basic loss:0.7043
------------test loss 0.901, acc 0.497 
------------test loss 0.8992, acc 0.5 
------------test loss 0.9035, acc 0.5182 
------------test loss 0.8977, acc 0.5 
------------test loss 0.9068, acc 0.4787 
+[0/1]  train_loss: 0.87053 valid_loss: 0.69741 train_acc: 0.50015 valid_acc: 0.48915
+Validation loss decreased (inf --> 0.697408).  Saving model ...
+basic loss:0.6974
+-----------test loss 0.8927, acc 0.4891 
+-----------test loss 0.889, acc 0.5104 
+-----------test loss 0.8905, acc 0.4865 
+-----------test loss 0.8974, acc 0.4036 
+-----------test loss 0.8681, acc 0.5981 
 task 0 starting...
-[0/2]  train_loss: 0.79325 valid_loss: 0.69444 train_acc: 0.49639 valid_acc: 0.50304
-Validation loss decreased (inf --> 0.694441).  Saving model ...
-[1/2]  train_loss: 0.75476 valid_loss: 0.78947 train_acc: 0.51360 valid_acc: 0.52517
-EarlyStopping counter: 1 out of 2
------------test loss 0.912, acc 0.5022 
------------test loss 0.8889, acc 0.503 
+[0/1]  train_loss: 0.75360 valid_loss: 0.71455 train_acc: 0.54207 valid_acc: 0.51172
+Validation loss decreased (inf --> 0.714554).  Saving model ...
+-----------test loss 0.9109, acc 0.503 
+-----------test loss 0.9146, acc 0.5117 
 task 1 starting...
-[0/2]  train_loss: 0.76557 valid_loss: 0.73094 train_acc: 0.53095 valid_acc: 0.51823
-Validation loss decreased (inf --> 0.730941).  Saving model ...
-[1/2]  train_loss: 0.77420 valid_loss: 0.64929 train_acc: 0.54515 valid_acc: 0.56163
-Validation loss decreased (0.730941 --> 0.649292).  Saving model ...
------------test loss 0.9924, acc 0.3824 
------------test loss 0.8311, acc 0.605 
+[0/1]  train_loss: 0.75055 valid_loss: 0.74217 train_acc: 0.53350 valid_acc: 0.51128
+Validation loss decreased (inf --> 0.742172).  Saving model ...
+-----------test loss 0.9122, acc 0.5048 
+-----------test loss 0.95, acc 0.5113 
 task 2 starting...
-[0/2]  train_loss: 0.77281 valid_loss: 0.72733 train_acc: 0.52051 valid_acc: 0.50000
-Validation loss decreased (inf --> 0.727330).  Saving model ...
-[1/2]  train_loss: 0.76011 valid_loss: 0.74072 train_acc: 0.53794 valid_acc: 0.52865
-EarlyStopping counter: 1 out of 2
------------test loss 0.9902, acc 0.497 
------------test loss 0.931, acc 0.5 
+[0/1]  train_loss: 0.78089 valid_loss: 0.68144 train_acc: 0.51916 valid_acc: 0.59549
+Validation loss decreased (inf --> 0.681442).  Saving model ...
+-----------test loss 0.89, acc 0.5009 
+-----------test loss 0.8722, acc 0.5955 
 task 3 starting...
-[0/2]  train_loss: 0.74843 valid_loss: 0.68357 train_acc: 0.51773 valid_acc: 0.55252
-Validation loss decreased (inf --> 0.683565).  Saving model ...
-[1/2]  train_loss: 0.71143 valid_loss: 1.15406 train_acc: 0.54826 valid_acc: 0.58073
-EarlyStopping counter: 1 out of 2
------------test loss 0.9125, acc 0.4549 
------------test loss 0.875, acc 0.5525 
-[-0.15242795 -0.14243653 -0.25636019 -0.01871567]
+[0/1]  train_loss: 0.78200 valid_loss: 0.70358 train_acc: 0.52757 valid_acc: 0.48307
+Validation loss decreased (inf --> 0.703578).  Saving model ...
+-----------test loss 0.8899, acc 0.5434 
+-----------test loss 0.9006, acc 0.4831 
+[ 0.02631823 -0.03660577 -0.11142562 -0.1059875 ]
 [0. 0. 0. 0.]
------------ Avg_End_Acc (0.5026041567325592, 0.0, nan) Avg_End_Fgt (0.0, 0.0, nan) Avg_Acc (0.4997829794883728, 0.0, nan)-----------
------------ Avg_End_Acc (0.4937065839767456, 0.0, nan) Avg_End_Fgt (0.0572916716337204, 0.0, nan) Avg_Acc (0.495334193110466, 0.0, nan)-----------
------------ Avg_End_Acc (0.4984809011220932, 0.0, nan) Avg_End_Fgt (0.0, 0.0, nan) Avg_Acc (0.4977213516831398, 0.0, nan)-----------
------------ Avg_End_Acc (0.5036892294883728, 0.0, nan) Avg_End_Fgt (0.0210503488779068, 0.0, nan) Avg_Acc (0.5003255158662796, 0.0, nan)-----------
+----------- Avg_End_Acc (0.5073784589767456, 0.0, nan) Avg_End_Fgt (0.0, 0.0, nan) Avg_Acc (0.498263880610466, 0.0, nan)-----------
+----------- Avg_End_Acc (0.5080295205116272, 0.0, nan) Avg_End_Fgt (0.0, 0.0, nan) Avg_Acc (0.4985894113779068, 0.0, nan)-----------
+----------- Avg_End_Acc (0.5481770932674408, 0.0, nan) Avg_End_Fgt (0.0, 0.0, nan) Avg_Acc (0.5186631977558136, 0.0, nan)-----------
+----------- Avg_End_Acc (0.513237863779068, 0.0, nan) Avg_End_Fgt (0.0575086772441864, 0.0, nan) Avg_Acc (0.5011935830116272, 0.0, nan)-----------
