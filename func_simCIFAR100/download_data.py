@@ -2,7 +2,7 @@ from avalanche.benchmarks.classic import SplitCIFAR10,SplitCIFAR100
 from torchvision import utils
 import os
 
-base_dir = "/Users/xulongwang/PycharmProjects/func_sim" #修改为当前Data 目录所在的绝对路径
+base_dir = "./" #修改为当前Data
 # data_dir = os.path.join(base_dir, "Data", "SplitMNIST")
 # train_o_dir = os.path.join( base_dir, "Data", "SplitMNIST", "train")
 # test_o_dir = os.path.join( base_dir, "Data", "SplitMNIST", "test")
