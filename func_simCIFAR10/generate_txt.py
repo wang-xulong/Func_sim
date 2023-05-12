@@ -1,9 +1,8 @@
 import os
 
-# train_dir = os.path.join( "Data",  "SplitMNIST","train")
-# test_dir = os.path.join("Data",  "SplitMNIST", "test")
-train_dir = os.path.join( "Data",  "SplitCifar10","train")
-test_dir = os.path.join("Data",  "SplitCifar10", "test")
+
+train_dir = os.path.join( "../Data",  "SplitCifar10","train")
+test_dir = os.path.join("../Data",  "SplitCifar10", "test")
 label_map = {
     '0':'0','1':'1',
     '2':'0','3':'1',
@@ -14,8 +13,6 @@ label_map = {
 
 
 def gen_txt(img_dir):
-
-
     for root, s_dirs, _ in os.walk(img_dir, topdown=True):  # 获取 train文件下各文件夹名称
         for sub_dir in s_dirs:
             i_dir = os.path.join(root, sub_dir)  # 获取各context的文件夹 绝对路径

@@ -1,8 +1,12 @@
 #!/bin/bash
-#SBATCH --comment=init
-#SBATCH --mem=8G
+#SBATCH --comment=cifar100
+#SBATCH --mem=16G
 #SBATCH --account=dcs-acad4
 #SBATCH --partition=dcs-acad
+#SBATCH --time=6-0:0:0
+#SBATCH --nodes=1
+#SBATCH --gpus-per-node=1
+#SBATCH --cpus-per-gpu=2
 #SBATCH --mail-user=xl.wang@sheffield.ac.uk
 
 # Load the conda module
