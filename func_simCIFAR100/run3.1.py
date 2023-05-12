@@ -82,7 +82,7 @@ for run in range(run_times):
         trained_model, _, _, _, _, new_task_first_loss = trainES(train_data, test_data, trained_model, criterion, optimizer, max_epoch,
                                             device, patience, func_sim=True)
         # record func_sim of current new task
-        print("for task {}, the new_task_first_loss is {:.4}.".format(j,new_task_first_loss)
+        print("for task {}, the new_task_first_loss is {:.4}.".format(j,new_task_first_loss))
         fun_score[run, j] = (1 - (new_task_first_loss / basic_loss.item()))
 
         # test model on basic task and task j
